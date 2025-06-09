@@ -1,0 +1,9 @@
+.cadastro {
+   text-align: center;
+   position: relative;
+   top: 100px;
+   left: 600px;
+   width: 350px;
+   border: solid black;
+   border-radius: 20px;
+}
