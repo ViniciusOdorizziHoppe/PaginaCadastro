@@ -26,6 +26,8 @@ function LoginUsuario() {
     console.log("TUDO CERTO CAMPEÂO")
     
 }
+var FaturamentoTotal = 0
+var LucroTotal = 0
 
 function LucroUsuario() {
     var QTV = document.getElementById("QuantidadeVendas")
@@ -34,14 +36,31 @@ function LucroUsuario() {
     var ValorVenda = Number(VLV.value)  
     var PTV = document.getElementById("PercentualVendas")
     var PercentualVenda = Number(PTV.value)  
+    
 
     var CalcFaturado = QuantidadeVenda * ValorVenda
     var CalcPercent = PercentualVenda/100
     var CalcLucrado = CalcFaturado * CalcPercent
 
     var Lucro = document.getElementById("lucro")
-    Lucro.innerHTML = `${CalcLucrado}`
+    Lucro.innerHTML = `${CalcLucrado.toFixed(2)}`
     var Faturamento = document.getElementById("faturamento")
-    Faturamento.innerHTML = `${CalcFaturado}`
+    Faturamento.innerHTML = `${CalcFaturado.toFixed(2)}`
+
+    FaturamentoTotal +=  CalcFaturado
+    LucroTotal +=  CalcLucrado
+
+    var MostrarLucro = document.getElementById("MostrarLucro")
+    var MostrarFaturamento = document.getElementById("MostrarFaturamento")
+    MostrarLucro.innerHTML = `${LucroTotal.toFixed(2)}`
+    MostrarFaturamento.innerHTML = `${FaturamentoTotal.toFixed(2)}`
+
+    console.log(FaturamentoTotal)
+    console.log(CalcLucrado)
+
+
+    QTV.value = "";
+    VLV.value = "";
+    PTV.value = "";
 
 }

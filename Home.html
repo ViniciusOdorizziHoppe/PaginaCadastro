@@ -5,19 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="HomeStyle.css">
 </head>
 <body>
-    <h1>Bem vindo!</h1>
 
-    <p>Informe sobre suas Vendas!</p>
-    <input type="number" id="QuantidadeVendas" placeholder="Quantidade de Vendas">
-    <br>
-    <input type="number" id="ValorVendas" placeholder="Valor da Unidade">
-    <br>
-    <input type="number" id="PercentualVendas" placeholder="Percentual de Ganho">
-    <br>
-    <button id="Botao" onclick="LucroUsuario()">Adicionar</button>
-    <p>Faturamento total :</p> <div class="faturamento" id="faturamento">0</div>
-    <p>Lucro total :</p> <div class="lucro" id="lucro">0</div>
+    <section class="BemVindo">
+
+        <h1>Bem vindo!</h1>
+        
+        <p>Informe sobre suas Vendas!</p>
+        <input class="InputQuant" type="number" id="QuantidadeVendas" placeholder="Quantidade de Vendas">
+        <br>
+        <input type="number" id="ValorVendas" placeholder="Valor da Unidade">
+        <br>
+        <input type="number" id="PercentualVendas" placeholder="Percentual de Ganho">
+        <br>
+        <button class="botao" id="Botao" onclick="LucroUsuario()">Adicionar</button>
+        <p>Faturamento total :</p> <div class="faturamento" id="faturamento">0</div>
+        <p>Lucro total :</p> <div class="lucro" id="lucro">0</div>
+    </section>
+
+    <section class="LucroFatu"> 
+
+        <p class="MostrarLucro">Seu Lucro Total é:</p>
+        <p id="MostrarLucro"> 0,00</p>
+         <p class="MostrarFaturamento">Seu Faturamento Total é:</p>
+        <p id="MostrarFaturamento"> 0,00</p>
+    </section>
 </body>
 </html>
