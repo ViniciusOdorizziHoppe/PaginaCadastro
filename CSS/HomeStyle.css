@@ -1,0 +1,86 @@
+body {
+
+}
+
+.cadastro {
+   text-align: center;
+   position: relative;
+   top: 100px;
+   left: 600px;
+   width: 350px;
+   border: solid;
+   border-radius: 20px;
+}
+.BemVindo {
+   text-align: left;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   margin-left: 70px;
+   height: 500px;
+   width: 200px;
+   padding: 50px;
+   border-radius: 45px;
+   box-shadow: 10px 10px 20px #000000;
+   position: absolute;
+   top: 50px;
+   filter: drop-shadow(2px);
+   background-color: white;
+   
+}
+.botao {
+   width: 180px;
+   height: 30px;
+   background-color: black;
+   color: white;
+   font-size: 1em;
+}
+
+.botao:hover {
+   background-color: #1d1b1b;
+   cursor: pointer;
+}
+
+input {
+   height: 25px;
+}
+input:hover {
+   background-color: #e8e0e0;
+}
+p {
+ color: #413e3e;
+}
+
+.LucroFatu {
+   position: absolute;
+   top: 50px;
+   left: 450px;
+   width: 300px;
+   height: 200px;
+   border-radius: 40px;
+   box-shadow: 10px 10px 20px #000000;
+   filter: drop-shadow(2px);
+   background-color: white;
+   
+}
+
+.MostrarFaturamento {
+   font-size: large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 20px;
+}
+.MostrarLucro {
+   font-size: large;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-left: 20px;
+}
+#MostrarLucro {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 20px;
+   font-size: 20px;
+}
+#MostrarFaturamento {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 20px;
+   font-size: 20px;
+}
+
