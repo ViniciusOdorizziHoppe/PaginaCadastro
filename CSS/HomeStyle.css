@@ -1,5 +1,6 @@
 body {
-
+background: black;
+font-family: "Alumni Sans SC", sans-serif;
 }
 
 .cadastro {
@@ -10,11 +11,12 @@ body {
    width: 350px;
    border: solid;
    border-radius: 20px;
+   background-color: #ffffff;
+   
 }
 .BemVindo {
    text-align: left;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 20px;
+   font-size: 25px;
    margin-left: 70px;
    height: 500px;
    width: 200px;
@@ -25,15 +27,19 @@ body {
    top: 50px;
    filter: drop-shadow(2px);
    background-color: white;
-   
+   padding: 40px;
 }
-.botao {
+.botâo {
    width: 180px;
-   height: 30px;
+   height: 40px;
    background-color: black;
    color: white;
-   font-size: 1em;
+   font-family: "Alumni Sans SC", sans-serif;
+   font-size: 16px;
+   margin-top: 20px;
+   position: relative;
 }
+
 
 .botao:hover {
    background-color: #1d1b1b;
@@ -42,6 +48,8 @@ body {
 
 input {
    height: 25px;
+   position:relative;
+   top: -10px;
 }
 input:hover {
    background-color: #e8e0e0;
@@ -65,21 +73,17 @@ p {
 
 .MostrarFaturamento {
    font-size: large;
-   font-family: Georgia, 'Times New Roman', Times, serif;
    margin-left: 20px;
 }
 .MostrarLucro {
    font-size: large;
-   font-family: Georgia, 'Times New Roman', Times, serif;
    margin-left: 20px;
 }
 #MostrarLucro {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    margin-left: 20px;
    font-size: 20px;
 }
 #MostrarFaturamento {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    margin-left: 20px;
    font-size: 20px;
 }
