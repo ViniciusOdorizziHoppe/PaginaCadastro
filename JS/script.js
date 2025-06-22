@@ -64,3 +64,7 @@ function LucroUsuario() {
     PTV.value = "";
 
 }
+
+function CustoUsuario() {
+    
+}

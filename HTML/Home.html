@@ -23,9 +23,19 @@
         <br>
         <input type="number" id="PercentualVendas" placeholder="Percentual de Ganho">
         <br>
-        <button class="botao" id="Botao" onclick="LucroUsuario()">Adicionar</button>
+        <button class="botao" id="Botao" onclick="LucroUsuario()">Adicionar!</button>
         <p>Faturamento total :</p> <div class="faturamento" id="faturamento">0</div>
         <p>Lucro total :</p> <div class="lucro" id="lucro">0</div>
+    </section>
+    <section class="compras">
+
+        <h1>Informe Seus Gastos!</h1>
+        <p>Coloque o Nome do Seu Gasto e Valor!</p>
+        <input type="text" class="NomeGasto" id="NomeGasto" placeholder="Informe Qual Foi o Gasto">
+        <br>
+        <input type="number" class="ValorGasto" id="ValorGasto" placeholder="Informe o Valor Gasto">
+        <br>
+        <input type="button" value="Adicionar!" onclick="CustoUsuario()">
     </section>
 
     <section class="LucroFatu"> 
