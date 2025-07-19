@@ -12,15 +12,16 @@
 <body>
     
     <div class="cadastro">
-        
-            <h1>Faça o seu Cadastro!</h1>
+         <h1>Faça o seu Cadastro!</h1>
+        <form action="/cadastro" method="post">
             <p>Email:</p>
             <input type="email" name="email" id="email" placeholder="Insira o seu Email!" required>
             <p>Senha:</p>
             <input type="password" name="senha" id="senha" placeholder="Insira sua Senha!" required>
             <br>
-            <button class="botão" onclick="CadastroUsuario()"> Cadastrar!</button> 
-            <button class="botaoConta" onclick= "PáginaDeLogin()">Já tenho conta</button>
+            <button class="botão" type="submit"> Cadastrar!</button> 
+        </form>
+        <p><a href="/PaginaCadastro/HTML/Login.html">Já tenho conta</a></p>
     </div>
 
    
